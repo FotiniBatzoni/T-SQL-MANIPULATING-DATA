@@ -1,0 +1,13 @@
+USE AdventureWorks2012; 
+GO 
+ 
+SELECT ProductID
+FROM DBO.demoProduct
+WHERE PRODUCTID>900
+
+DELETE DBO.demoProduct
+WHERE PRODUCTID>900
+
+SELECT ProductID
+FROM DBO.demoProduct
+WHERE PRODUCTID>900
